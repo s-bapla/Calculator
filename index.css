@@ -3,13 +3,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; 
+  height: 100vh;
 }
 
 button {
   margin: 0px;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
 }
 
 .container {
@@ -19,9 +20,11 @@ button {
 .results {
   display: flex;
   justify-content: end;
+  align-items: center;
   padding: 5px;
   border-bottom: 3px solid black;
-  height: 20px;
+  height: 40px;
+  font-size: 20px;
 }
 
 .row {
@@ -29,5 +32,9 @@ button {
 }
 
 .row .zero {
-    flex-grow: 1;
+  flex-grow: 1;
+}
+
+.clear {
+  flex-grow: 1;
 }
